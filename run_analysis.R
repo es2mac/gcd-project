@@ -44,8 +44,8 @@ row.names(tidyData) <- gsub("(.*)\\.(.*)", "\\2 \\1", row.names(tidyData))
 cat("Done.\n")
 
 # Write tidy data to file
-write.table(tidyData, "tidyData.txt")
-cat("Tidy data set written to tidyData.txt\n")
+write.table(tidyData, "uci_har_tidy.txt")
+cat("Tidy data set written to uci_har_tidy.txt\n")
 
 
 
